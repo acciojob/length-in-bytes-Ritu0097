@@ -1,7 +1,7 @@
-const byteSize = (str) => {
-  console.log(str.length);
-};
-
-// Do not change the code below
-// const str = prompt("Enter some string.");
-// alert(byteSize(str));
+function shortcut(str1, str2) {
+    if (str1 === '' || str2 === '') {
+        return '';
+    } else {
+        return str1.charAt(0).toUpperCase() + str2.charAt(0).toLowerCase();
+    }
+}
